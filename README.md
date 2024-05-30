@@ -1,2 +1,4 @@
 # Exercises
-Repo for exercises
+Repository for exercises
+<br>
+Author - Vidit Gupta
