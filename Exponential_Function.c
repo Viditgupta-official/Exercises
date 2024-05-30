@@ -1,11 +1,13 @@
 #include<stdio.h>
 
 int power(int x,int y);
+
 int main()
 
 {
     int a, b, exponential;
 
+    while(1)
     printf("Enter a base number : ");
     scanf("%d", &a);
 
