@@ -5,7 +5,7 @@ int power(int x,int y);
 int main()
 
 {
-    int a, b, exponential;
+    int a, b, expo;
 
     while(1)
     printf("Enter a base number : ");
@@ -14,9 +14,9 @@ int main()
     printf("Enter it's power : ");
     scanf("%d", &b);
 
-    exponential = power(a, b);
+    expo = power(a, b);
 
-    printf("The value of %d raised to the power of %d is = %d", a, b, exponential);
+    printf("The value of %d raised to the power of %d is = %d", a, b, expo);
 }
 
 int power(int x, int y)
