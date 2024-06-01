@@ -9,10 +9,10 @@ void roman(int num)
             printf("m");  
             num = num - 1000;  
         }
-        else if(num == 999)
+        else if(num >= 900)
         {
             printf("cmxcix");
-            num = 0;
+            num = num - 900;
         }
         else if(num >= 500)  
         {  
